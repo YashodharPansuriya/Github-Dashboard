@@ -1,5 +1,5 @@
 from django.urls import path
-from Dashboard1.views import index
+from KPI_Dashboard.Views.GIthub_views import index
 
 urlpatterns = [
     path('', index),
