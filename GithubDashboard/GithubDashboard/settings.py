@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'GithubDashboard.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Github',
+        'NAME': 'Github_Dashboard',
         'USER' : 'postgres',
         'PASSWORD' : 'Yash@123',
         'HOST' : 'localhost',
